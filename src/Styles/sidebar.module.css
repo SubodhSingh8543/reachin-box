@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,300");
+
+.sidebar_container {
+    position: sticky;
+    width: 56px;
+    height: 100vh;
+    padding: 0px 4px 0px 4px;
+    gap: 0px;
+    border: 1px solid #343A40;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar_container>img {
+    width: 26px;
+    height: 24px;
+    border-radius: 2px;
+    margin-top: 22px;
+}
+
+.sidebar_container>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-top: 76px;
+}
+
+.sidebar_container>div:nth-child(2)>svg{
+ height: 20px;
+ width: 20px;
+ color: #AEAEAE;
+}
+
+.sidebar_container>div:nth-child(3){
+    background: #054F31;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    margin: auto;
+}

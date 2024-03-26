@@ -1,0 +1,8 @@
+.lead_container {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    top: 0;
+    bottom: 0;
+    border: 1px solid red;
+}
